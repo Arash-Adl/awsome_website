@@ -89,14 +89,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-.images{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-
 .title {
     display: flex;
     justify-content: center;
@@ -106,11 +98,25 @@ body{
     color: #1F2937;
 }
 
-.subtext{
-    text-align: center;
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .info .images div{
     display: flex;
     flex-direction: column;
+}
+
+.images div img{
+    width: 90px;
+    align-self: center;
+}
+
+
+
+.subtext{
+    text-align: center;
 }
