@@ -30,6 +30,8 @@ body{
 
 .logo_links{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -52,6 +54,7 @@ body{
 
 .intro{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 200px;
 }
@@ -59,6 +62,9 @@ body{
 .intro .content{
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    flex: 1;
 }
 
 .intro .content .title{
