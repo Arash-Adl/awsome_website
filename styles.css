@@ -78,3 +78,33 @@ body{
     padding: 8px;
 
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.info .images div{
+    display: flex;
+    flex-direction: column;
+}
