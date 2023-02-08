@@ -170,6 +170,7 @@ body{
     align-self: center;
 }
 
+
 .call .button{
     border-radius: 8px;
     border-color: #F9FAF8;
@@ -180,4 +181,15 @@ body{
     font-size: 22px;
     color: #F9FAF8;
     padding: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px;
+
 }
