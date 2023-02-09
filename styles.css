@@ -56,6 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap-reverse;
     gap: 10px;
 }
 
@@ -100,10 +101,11 @@ body{
     color: #1F2937;
 }
 
-.images{
+.info .images{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -118,6 +120,7 @@ body{
 }
 
 .subtext{
+    font-size: 13px;
     text-align: center;
 }
 
