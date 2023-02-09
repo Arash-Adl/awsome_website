@@ -89,6 +89,7 @@ body{
 .info{
     display: flex;
     flex-direction: column;
+    gap: 30px;
     padding-top: 40px;
 }
 
@@ -115,7 +116,8 @@ body{
 }
 
 .images div img{
-    width: 90px;
+    width: 250px;
+    height: 300px;
     align-self: center;
 }
 
